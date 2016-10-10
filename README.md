@@ -4,23 +4,28 @@
 
 AutoLauncher is a programm which can execute an autohotkey script uploaded on a website.
 
-> With the autolauncher u can execute an autohotkey script which is upload on Internet. With this u can update
+> With the autolauncher you can execute an autohotkey script which is upload on Internet. With this you can update
 > this script and the users can have the updates instantaneously.
 
-### Installation
+## Installation
 
-First u have to upload ur script on the internet.
-Second, u have to change this file, u have to change the url by your.
+First you have to upload ur script on the internet.
+Second, you have to change this file, you have to change the url by your.
 
 ```sh
 urlscript := "http://url"
 ```
 
-U remplace by : 
+You can remplace by : 
 
 ```sh
 urlscript := "http://your_url_that_contains_ur_script"
 ```
+
+###Distributing your script
+
+After, you can create an executable and distributing to your users. 
+When you change the script which has uploaded, the users can have the updates.
 
 License
 ----
