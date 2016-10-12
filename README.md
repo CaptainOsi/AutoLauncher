@@ -23,6 +23,17 @@ You can remplace by :
 urlscript := "http://your_url_that_contains_ur_script"
 ```
 
+## Note
+
+The script includes an exe (autohotkey) to execute the script without autohotkey installed.
+You can easily remplace this part by :
+
+```sh
+UrlDownloadToFile, URL, Filename
+```
+
+Or You just have to have the autohotkey.exe in the folder of your script.
+
 ###Distributing your script
 
 After, you can create an executable and distributing to your users. 
